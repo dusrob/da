@@ -1,0 +1,9 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[dependend]
+AS
+SELECT *
+FROM depend.dbo.depen_n
+GO
